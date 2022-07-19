@@ -52,7 +52,7 @@ video::-webkit-media-controls {
   }
 .wallpaper {
 
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
@@ -63,8 +63,8 @@ video::-webkit-media-controls {
     opacity:0.5;
     -moz-opacity:0.5;
     filter: alpha(opacity=50) black;
-    -khtml-opacity: 0.5;
-    background-color:#000;
+    -khtml-opacity: 0.5; */
+    /* background-color:#000; */
 }
 .box_content {
     z-index: 100;
