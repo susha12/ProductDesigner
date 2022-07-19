@@ -26,13 +26,14 @@ body{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    /* border: 5px solid rgb(0, 0, 0); */
+    border: 5px solid rgb(0, 0, 0);
     overflow: hidden;
+    max-width: 2662px;
 }
 
 .box_video {
-    max-height: 100vh;
-    position: absolute;
+    height: 100vh;
+    posmax-width: 2662px;ition: absolute;
     max-width: 2662px;
     width: 100%;
     /* border: 5px solid rgb(60, 255, 0); */
@@ -40,10 +41,11 @@ body{
 .box_video video{
     position: relative;
     background-image: url(../img/Rectangle_19.webp);
-    background-position: center center;
+    /* background-position: center center; */
     background-size: cover;
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    max-height: 1660px;
     max-width: 2662px;
     min-width: 1688px;
     z-index: 1;
@@ -52,20 +54,19 @@ video::-webkit-media-controls {
     display:none !important;
   }
 .wallpaper {
-
     position: absolute;
-    /* top: 0;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 100%; */
+    height: 100%;
     z-index: 10;
     opacity:0.5;
     -moz-opacity:0.5;
     filter: alpha(opacity=50) black;
     -khtml-opacity: 0.5;
-    /* background-color:#000; */
+    background-color:#000;
 }
 .box_content {
     z-index: 100;
@@ -228,8 +229,7 @@ h1{
 
   @media only screen and (max-width: 600px) {
     .box_video video{
-        background-position-x:-42vh;
-        background-size: 100vh 100% no-repeat;
+        background-position-x:-72vh;
         background-size: 1500px;
     }
     .box_content {
@@ -242,6 +242,12 @@ h1{
     }
     .box_socialIcons {
         margin-top: 50px;
+    }
+    .text {
+        opacity: 1;
+    }
+    .btn {
+        opacity: 1;
     }
   }
   @media only screen and (max-width: 526px) {
