@@ -34,7 +34,7 @@ body{
 }
 .box_video video{
     position: relative;
-    background-image: url(../img/Rectangle_19.png);
+    background-image: url(../img/Rectangle_19.webp);
     background-position: center center;
     background-size: cover;
     width: 100%;
